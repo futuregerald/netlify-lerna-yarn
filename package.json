@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "version-check"
+    ]
+  },
+  "scripts": {
+    "version": "yarn --version && lerna run version"
+  },
+  "devDependencies": {
+    "lerna": "^2.1.2"
+  }
+}
