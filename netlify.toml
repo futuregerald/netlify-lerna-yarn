@@ -1,2 +1,5 @@
+[build]
+  command="yarn --version && yarn run version"
+  
 [build.environment]
   YARN_VERSION = '1.9.4'
